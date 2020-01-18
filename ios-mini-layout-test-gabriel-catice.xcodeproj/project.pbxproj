@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		C008D53923D285B900C75A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D53823D285B900C75A4E /* AppDelegate.swift */; };
 		C008D53B23D285B900C75A4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D53A23D285B900C75A4E /* SceneDelegate.swift */; };
-		C008D53D23D285B900C75A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D53C23D285B900C75A4E /* ViewController.swift */; };
+		C008D53D23D285B900C75A4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D53C23D285B900C75A4E /* HomeViewController.swift */; };
 		C008D54023D285B900C75A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C008D53E23D285B900C75A4E /* Main.storyboard */; };
 		C008D54223D285BC00C75A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C008D54123D285BC00C75A4E /* Assets.xcassets */; };
 		C008D54523D285BC00C75A4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C008D54323D285BC00C75A4E /* LaunchScreen.storyboard */; };
+		C008D54F23D2862C00C75A4E /* Malayalam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = C008D54D23D2862C00C75A4E /* Malayalam MN.ttc */; };
+		C008D55023D2862C00C75A4E /* Malayalam Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = C008D54E23D2862C00C75A4E /* Malayalam Sangam MN.ttc */; };
+		C008D55823D2918000C75A4E /* MainArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D55623D2918000C75A4E /* MainArticleTableViewCell.swift */; };
+		C008D55923D2918000C75A4E /* MainArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C008D55723D2918000C75A4E /* MainArticleTableViewCell.xib */; };
+		C008D55C23D292B000C75A4E /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D55A23D292B000C75A4E /* ContentTableViewCell.swift */; };
+		C008D55D23D292B000C75A4E /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C008D55B23D292B000C75A4E /* ContentTableViewCell.xib */; };
+		C008D56023D2936A00C75A4E /* ContentArticlesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D55E23D2936A00C75A4E /* ContentArticlesCollectionViewCell.swift */; };
+		C008D56123D2936A00C75A4E /* ContentArticlesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C008D55F23D2936A00C75A4E /* ContentArticlesCollectionViewCell.xib */; };
+		C008D56323D2AD4200C75A4E /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008D56223D2AD4200C75A4E /* DailyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C008D53523D285B900C75A4E /* ios-mini-layout-test-gabriel-catice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-mini-layout-test-gabriel-catice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C008D53823D285B900C75A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C008D53A23D285B900C75A4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C008D53C23D285B900C75A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C008D53C23D285B900C75A4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C008D53F23D285B900C75A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C008D54123D285BC00C75A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C008D54423D285BC00C75A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C008D54623D285BC00C75A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C008D54D23D2862C00C75A4E /* Malayalam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Malayalam MN.ttc"; sourceTree = "<group>"; };
+		C008D54E23D2862C00C75A4E /* Malayalam Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Malayalam Sangam MN.ttc"; sourceTree = "<group>"; };
+		C008D55623D2918000C75A4E /* MainArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArticleTableViewCell.swift; sourceTree = "<group>"; };
+		C008D55723D2918000C75A4E /* MainArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainArticleTableViewCell.xib; sourceTree = "<group>"; };
+		C008D55A23D292B000C75A4E /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		C008D55B23D292B000C75A4E /* ContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
+		C008D55E23D2936A00C75A4E /* ContentArticlesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentArticlesCollectionViewCell.swift; sourceTree = "<group>"; };
+		C008D55F23D2936A00C75A4E /* ContentArticlesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentArticlesCollectionViewCell.xib; sourceTree = "<group>"; };
+		C008D56223D2AD4200C75A4E /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,72 @@
 		C008D53723D285B900C75A4E /* ios-mini-layout-test-gabriel-catice */ = {
 			isa = PBXGroup;
 			children = (
+				C008D55223D290E200C75A4E /* Sources */,
+				C008D55123D290BA00C75A4E /* Resources */,
+			);
+			path = "ios-mini-layout-test-gabriel-catice";
+			sourceTree = "<group>";
+		};
+		C008D54C23D2860D00C75A4E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C008D54D23D2862C00C75A4E /* Malayalam MN.ttc */,
+				C008D54E23D2862C00C75A4E /* Malayalam Sangam MN.ttc */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C008D55123D290BA00C75A4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C008D54C23D2860D00C75A4E /* Fonts */,
 				C008D53823D285B900C75A4E /* AppDelegate.swift */,
 				C008D53A23D285B900C75A4E /* SceneDelegate.swift */,
-				C008D53C23D285B900C75A4E /* ViewController.swift */,
-				C008D53E23D285B900C75A4E /* Main.storyboard */,
 				C008D54123D285BC00C75A4E /* Assets.xcassets */,
 				C008D54323D285BC00C75A4E /* LaunchScreen.storyboard */,
 				C008D54623D285BC00C75A4E /* Info.plist */,
 			);
-			path = "ios-mini-layout-test-gabriel-catice";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C008D55223D290E200C75A4E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C008D55423D2914600C75A4E /* Daily */,
+				C008D55323D2913300C75A4E /* Home */,
+				C008D53E23D285B900C75A4E /* Main.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C008D55323D2913300C75A4E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C008D55523D2915100C75A4E /* Cells */,
+				C008D53C23D285B900C75A4E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C008D55423D2914600C75A4E /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				C008D56223D2AD4200C75A4E /* DailyViewController.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		C008D55523D2915100C75A4E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C008D55623D2918000C75A4E /* MainArticleTableViewCell.swift */,
+				C008D55723D2918000C75A4E /* MainArticleTableViewCell.xib */,
+				C008D55A23D292B000C75A4E /* ContentTableViewCell.swift */,
+				C008D55B23D292B000C75A4E /* ContentTableViewCell.xib */,
+				C008D55E23D2936A00C75A4E /* ContentArticlesCollectionViewCell.swift */,
+				C008D55F23D2936A00C75A4E /* ContentArticlesCollectionViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +201,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C008D54523D285BC00C75A4E /* LaunchScreen.storyboard in Resources */,
+				C008D55D23D292B000C75A4E /* ContentTableViewCell.xib in Resources */,
 				C008D54223D285BC00C75A4E /* Assets.xcassets in Resources */,
 				C008D54023D285B900C75A4E /* Main.storyboard in Resources */,
+				C008D55023D2862C00C75A4E /* Malayalam Sangam MN.ttc in Resources */,
+				C008D54F23D2862C00C75A4E /* Malayalam MN.ttc in Resources */,
+				C008D55923D2918000C75A4E /* MainArticleTableViewCell.xib in Resources */,
+				C008D56123D2936A00C75A4E /* ContentArticlesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C008D53D23D285B900C75A4E /* ViewController.swift in Sources */,
+				C008D56323D2AD4200C75A4E /* DailyViewController.swift in Sources */,
+				C008D53D23D285B900C75A4E /* HomeViewController.swift in Sources */,
+				C008D55823D2918000C75A4E /* MainArticleTableViewCell.swift in Sources */,
 				C008D53923D285B900C75A4E /* AppDelegate.swift in Sources */,
 				C008D53B23D285B900C75A4E /* SceneDelegate.swift in Sources */,
+				C008D55C23D292B000C75A4E /* ContentTableViewCell.swift in Sources */,
+				C008D56023D2936A00C75A4E /* ContentArticlesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9S937UXZK;
-				INFOPLIST_FILE = "ios-mini-layout-test-gabriel-catice/Info.plist";
+				INFOPLIST_FILE = "ios-mini-layout-test-gabriel-catice/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9S937UXZK;
-				INFOPLIST_FILE = "ios-mini-layout-test-gabriel-catice/Info.plist";
+				INFOPLIST_FILE = "ios-mini-layout-test-gabriel-catice/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
